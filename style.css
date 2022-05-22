@@ -23,7 +23,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(76, 76, 76);
+    background: #555;
 }
 
 /* all similar content styling codes */
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/tata-punch-55.jpg") no-repeat center;
+    background: url("images/tata-punch-prices-m-banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -366,12 +366,12 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .react::before{
     width: 50%;
 }
 .skills-content .right .mysql::before{
@@ -443,7 +443,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "Get in touch";
+    content: "get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -518,9 +518,9 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color:black;
+  color: #fff;
   display: block;
-  width: 420px!important;
+  width: 160px!important;
   height: 45px;
   outline: none;
   font-size: 18px;
@@ -533,7 +533,7 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color:violet      ;
+  color: crimson;
   background: none;
 }
 /* footer section styling */
